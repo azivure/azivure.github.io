@@ -32,19 +32,16 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     letter-spacing: -3px;
-    transform: translateY(+10px);
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }
 
 .project {
-    border-color: black;
-    border-width: 1px;
+    border: 1px solid black;
 }
 
 a {
