@@ -49,6 +49,10 @@ body {
   max-height: 250px;
 }
 
+.descr {
+    font-family: Raleway, sans-serif;
+}
+
 a {
     text-decoration: none;
 }
