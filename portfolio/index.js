@@ -5,11 +5,11 @@ Array.from(images).forEach((image) => {
   console.log("Testing");
   image.addEventListener("click", () => {
     let src = image.src;
-    lightbox.src = src;
     let lightboxImage = document.getElementsByClassName("lightbox-image")[0];
     let lightboxClose = document.getElementsByClassName("lightbox-close")[0];
     lightbox.classList.add("lightbox-display");
     lightboxImage.classList.add("lightbox-display-image");
+    lightboxImage.src = src;
     lightboxClose.classList.add("lightbox-display-close");
   });
 });
