@@ -78,11 +78,12 @@ body {
 }
 
 .image {
+  float: left;
   max-width: 250px;
   max-height: 250px;
 }
 
-.descr {
+.desc {
   font-family: Raleway, sans-serif;
 }
 
