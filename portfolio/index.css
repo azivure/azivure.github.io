@@ -19,27 +19,11 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.box {
-    /* flexbox solution (breaks ios safari)
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    width: 100wh; */
-    
-    /* transform solution (ie8+, weird flow problems) */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
+.box {}
 
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -51,40 +35,16 @@ body {
     transform: translateY(+10px);
 }
 
-.subtitle {
-    flex-wrap: wrap;
-    font-size: 35px;
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
-    text-align: center;
-}
-
-.bio {
-    flex-wrap: wrap;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
-    text-align: center;
-}
-
-.links {
-    padding-left: 0px;
-    margin: 30px 0px 0px 0px;
+.projects {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    list-style-type: none;
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
-/*    letter-spacing: 2px;*/
+    
 }
 
-li {
-    margin: 8px;
+.project {
+    border-color: black;
+    border-width: 1px;
 }
 
 a {
