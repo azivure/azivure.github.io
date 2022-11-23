@@ -74,11 +74,20 @@ body {
 }
 
 .project {
+  display: flex;
+  flex-direction: row;
   border: 1px solid black;
+}
+
+@media only screen and (max-width: 750px) {
+  .project > div {
+    flex-direction: column;
+  }
 }
 
 .image {
   float: left;
+  align-self: center;
   max-width: 250px;
   max-height: 250px;
 }
