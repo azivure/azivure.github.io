@@ -71,7 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 750px;
-  flex-wrap: wrap;
+  margin: auto;
 }
 
 .project {
