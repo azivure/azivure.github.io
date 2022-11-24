@@ -70,6 +70,7 @@ body {
 .projects {
   display: flex;
   flex-direction: column;
+  max-width: 750px;
   flex-wrap: wrap;
 }
 
@@ -80,7 +81,7 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
-  .project > div {
+  .project {
     flex-direction: column;
   }
 }
