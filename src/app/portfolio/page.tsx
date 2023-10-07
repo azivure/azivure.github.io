@@ -36,7 +36,7 @@ export default function Portfolio() {
       <Grid xs={5}>
         <Box
           component="img"
-          src="/lil_me.png"
+          src="/azivure.github.io/lil_me.png"
           sx={{
             maxWidth: "250px",
             maxHeight: "250px"
