@@ -1,7 +1,7 @@
 'use client'
 
 import { Raleway } from 'next/font/google'
-import { ThemeProvider, createTheme } from "@mui/material"
+import { ThemeProvider, createTheme } from "@mui/material/styles"
 
 const raleway = Raleway({ subsets: ['latin'] })
 

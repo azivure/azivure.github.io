@@ -76,10 +76,10 @@ export default function Home() {
           width: "960px"
         }}
       >
-        Hey I'm Jerrick! I also go by kosuka or azivure. I'm a ux design
+        {`Hey I'm Jerrick! I also go by kosuka or azivure. I'm a ux design
         student and I like to make music! I'm always down to collaborate with
         others on projects and learn more about design in general along the
-        way. Shoot me an email or DM me on discord (kkosuka)!
+        way. Shoot me an email or DM me on discord (kkosuka)!`}
       </Typography>
       <Stack
         spacing={2}
@@ -90,7 +90,7 @@ export default function Home() {
         }}
       >
         {
-          hyperlinks.map((hyperlink) => {
+          hyperlinks.map((hyperlink, idx) => {
               return (
                 <Link
                   component={NextLink}
@@ -103,6 +103,7 @@ export default function Home() {
                       color: "#CB83C7"
                     }
                   }}
+                  key={idx}
                 >
                   {hyperlink.text}
                 </Link>
